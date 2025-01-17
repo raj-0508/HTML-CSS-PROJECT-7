@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    gap: 2rem;
+    color: rgb(20, 75, 158);
+}
+
+.signin-btn{
+    padding: .4rem .8rem;
+    background-color: rgb(206, 55, 206);
+    border: none;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    font-weight: 550;
+    min-width: 80px;
+}
+
+.intro-section{
+    display: flex;
+    gap: 4rem;
+    margin: 0 4rem;
+}
+
+.left-section h1{
+    font-size: 4.5rem;
+    color: rgb(20, 75, 158);
+    min-width: 450px;
+    margin-top: 7rem;
+}
+
+.left-section h4{
+    color: rgb(163, 159, 159);
+    margin-top: 4rem;
+    line-height: 1.8rem;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.learn-more-btn{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(206, 55, 206);
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    margin-top: 5rem;
+}
+
+.vector-img{
+    position: absolute;
+    top: 35rem;
+
+}
+
+.vector-dot{
+    position: relative;
+    top: -14rem;
+    left: 4rem;
+}
+
+.imgs-div img:nth-child(3){
+    height: 700px;
+}
+
+.imgs-div img:nth-child(4){
+    height: 800px;
+    position: relative;
+    z-index: -1;
+    top: -52rem;
+}
